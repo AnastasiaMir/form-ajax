@@ -4,12 +4,13 @@ body {
 }
 
 .container {
-  max-width: 500px;
+  max-width: 400px;
   margin: auto;
   padding: 20px;
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+
 }
 
 h2 {
@@ -18,9 +19,7 @@ h2 {
 }
 
 
-input[type="text"],
-input[type="email"],
-input[type="phone"],
+input.need-validation,
 textarea[name="comment"] {
   width: 100%;
   padding: 12px;
